@@ -2,95 +2,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 /*--------------------------------------------Colors*/
 .bg-color{
-    background-color: #328490;
-}
-
-.bg-color-hse{
-    background-color: #191D32;
+    background-color: #ffffff;
 }
 .ui-menu-color-home{
-    background-color: #2B59C3;
+    background-color: #7B9AB9;
 }
 
 .ui-menu-color-medical{
-    background-color: #FF1654;
+    background-color: #F4ABC7;
 }
 
 .ui-menu-color-social{
-    background-color: #70C1B3;
+    background-color: #8AB69E;
 }
 
 .ui-menu-color-activity{
-    background-color: #F3CA40;
+    background-color: #F25637;
 }
 
-.ui-menu-color-contact{
-    background-color: #51344D;
+ft-color{
+    background-color: #547864;
 }
 /*--------------------------------------------Heading*/
 header{
     margin: 0;
 }
+
+.website-name{
+    font-family: "exo", sans-serif;
+    font-size: 10vw;
+    color: #547864;
+    text-align: center;
+    text-decoration: "none";
+    padding: 15px;
+}
 .logo{
-    background: url("../images/logo-image2.png");
+    background:url("../images/cccover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 33.33vh;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.subpage-name{
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
-}
-
-.name{
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    font-size: 70px;
-    vertical-align: center;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
+} 
 .name:hover{
     text-decoration:none;
-    
 }
-.contact{
+
+.logo-med-pg{
+    background: url("../images/logo-med-pg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
-    width: 33.4;
+    background-size: contain;
+    min-height: 180px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
 }
-.website-name{
-font-family: "exo", sans-serif;
-font-size: 100%;
-color: #fff;
-vertical-align: center;
-text-decoration: "none";
-padding-top: 15px;
-min-height: 120px;
+
+h1{
+    padding-top: 50px;
+    font-family: "exo", sans-serif;
+    font-size: 10vw;
+    color: #547864;
+    text-align: center;
 }
 
-.HSE-help{
-font-family: "exo", sans-serif;
-font-size: 45px;
-color: #fff;
-text-align: center;
-text-decoration: "none";
-padding-top: 10px;
-}
-
-.HSE-contact{
-font-family: "exo", sans-serif;
-font-size: 35px;
-color: #fff;
-text-align: center;
-text-decoration: "none";
-padding-top: 10px;
-}
 
 /*--------------------------------------------Navbar*/
 .list-inline-item:not(:last-child){
@@ -100,7 +87,10 @@ padding-top: 10px;
 .menu-container {
     font-size: 0;
     margin:0;
-    min-height:150px;
+    min-height:120px;
+}
+#nav{
+    margin: 0;
 }
 
 #nav li {
@@ -109,7 +99,7 @@ padding-top: 10px;
 }
 
 .menuitem{
-    height: 100%;
+    min-height: 120px;
     text-align: center;
     padding: 0;
 }
@@ -129,19 +119,18 @@ padding-top: 10px;
 .menuitem span{
     display: block;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 15px;
     text-align: center;
     text-transform: uppercase;
     font-family: "exo",sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
 }
-/*--------------------------------------------Hover.css*/
+/*-------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(25, 29, 50, 0.2);
-    height: 100%;
+    height: 120px;
 }
 
 /*--------------------------------------------Special paddings/margins/text*/
@@ -159,13 +148,199 @@ h1,h2,h3,h4,h5{
     color: #ffffff;
 }
 
+#common-symptoms li{
+    font-family: "exo", sans-serif;
+    font-size:30px;
+    color: #ffffff
+
+}
+#less-common-symptoms li{
+    font-family: "exo", sans-serif;
+    font-size:20px;
+    color: #ffffff
+}
+/*--------------------------------------------Medical Info Page*/
+.page-heading{
+    font-family: "exo", sans-serif;
+    color: #696969;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+.page-subheading{
+    font-family: "exo", sans-serif;
+    color: #696969;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.less-com{
+    padding-top: 80px;
+}
+
+.symptom-text{
+    color: #000000;
+    font-size: 20px;
+    display: block;
+    padding-top: 22px;
+    text-align: center;
+}
+
+#common-symptoms span i{
+    color: #F4ABC7;
+    font-size: 100px;
+    display: block;
+    padding-top: 22px;
+    text-align: center;
+}    
+
+.page-content{
+    font-family: "exo", sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.space{
+    padding-top: 10px;
+}
+/*--------------------------------------------Social Pages*/
+
+#social-links a i{
+    color: #8AB69E;
+    font-size: 100px;
+    display: block;
+    padding-top: 22px;
+    text-align: center;
+}
+#social-links a span{
+    color: #000000;
+    font-size: 20px;
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+    
+
+
+/*--------------------------------------------Useful Info Page*/
+.ci-logo{
+    background: url("../images/ci-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.hse-logo{
+    background: url("../images/hse-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.alone-logo{
+    background: url("../images/alone-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.age-logo{
+    background: url("../images/age-logo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.friends-logo{
+    background: url("../images/friends-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.rte-logo{
+    background: url("../images/rte-logo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.vm-logo{
+    background: url("../images/vm-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+.ifi-logo{
+    background: url("../images/ifi-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#ww-links a i{
+    color: #F25637;
+    font-size: 100px;
+    display: block;
+    padding-top: 22px;
+    text-align: center;
+}
+#ww-links a span{
+    color: #000000;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.hi-logo{
+    background: url("../images/hi-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+
 /*--------------------------------------------footer*/
 footer{
-    background-color: #328490;
+    background-color: #547864;
     color: #ffffff;
     min-height: 120px;
     font-family: "exo", sans-serif;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .inline-block{
