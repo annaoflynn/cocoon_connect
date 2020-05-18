@@ -79,6 +79,7 @@ h1{
 }
 
 
+
 /*--------------------------------------------Navbar*/
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -162,9 +163,10 @@ h1,h2,h3,h4,h5{
 /*--------------------------------------------Medical Info Page*/
 .page-heading{
     font-family: "exo", sans-serif;
-    color: #696969;
+    color: #547864;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 15px;
     font-size: 60px;
 }
 .page-subheading{
@@ -172,7 +174,7 @@ h1,h2,h3,h4,h5{
     color: #696969;
     font-size: 40px;
     padding-left: 15px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -205,6 +207,9 @@ h1,h2,h3,h4,h5{
 .space{
     padding-top: 10px;
 }
+h5{
+    font-weight: 500;
+}
 /*--------------------------------------------Social Pages*/
 
 #social-links a i{
@@ -231,7 +236,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -241,7 +246,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -251,7 +256,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -261,7 +266,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -271,7 +276,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -281,7 +286,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -291,7 +296,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -301,7 +306,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -309,9 +314,8 @@ h1,h2,h3,h4,h5{
 
 #ww-links a i{
     color: #F25637;
-    font-size: 100px;
+    font-size: 80px;
     display: block;
-    padding-top: 22px;
     text-align: center;
 }
 #ww-links a span{
@@ -328,7 +332,7 @@ h1,h2,h3,h4,h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 120px;
+    height: 150px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; 
     -webkit-transition: all .5s ease-in-out;
@@ -340,23 +344,26 @@ footer{
     color: #ffffff;
     min-height: 120px;
     font-family: "exo", sans-serif;
-    padding-top: 15px;
+    padding: 20px;
 }
 
-.inline-block{
-    display: inline-block;
-}
 .social-list i{
-    font-size: 22px;
+    font-size: 35px;
     color: #ffffff;
     text-align: center;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding: 15px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 .social-list i:hover{
-    color:#FF1654;
+    color:rgb(160, 158, 158);
 }
+.bold{
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+/*--------------------------------------------media query*/
