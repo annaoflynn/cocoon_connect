@@ -434,3 +434,8 @@ p{
     padding: 1.5rem;
 }
 /*--------------------------------------------media query*/
+@media screen and (max-width:1013px){
+#hidden-md{
+    display: none !important;
+}
+}
