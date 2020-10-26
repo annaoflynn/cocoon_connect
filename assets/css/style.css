@@ -214,6 +214,17 @@ p{
 iframe{
     padding-bottom: 5rem;
 }
+/*--------------------------------------------Index page*/
+
+.index-content p{
+   margin-bottom: 0 !important;
+}
+
+.list-content{
+    font-family: "exo", sans-serif;
+    font-size: 1.25rem;
+    padding-left: 5rem;
+}
 /*--------------------------------------------Medical Info Page*/
 .page-heading{
     font-family: "exo", sans-serif;
@@ -426,7 +437,7 @@ footer{
     bottom: 0;
     width: 100vw;
     margin: 0;
-    margin-top: 12rem;
+    margin-top: 3rem !important;
     position: relative;
     
 }
