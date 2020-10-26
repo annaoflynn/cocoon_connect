@@ -217,13 +217,15 @@ iframe{
 /*--------------------------------------------Index page*/
 
 .index-content p{
+    padding-left: 2rem;
+    padding-right: 2rem;
    margin-bottom: 0 !important;
 }
 
 .list-content{
     font-family: "exo", sans-serif;
     font-size: 1.25rem;
-    padding-left: 5rem;
+    padding-left: 7rem;
 }
 /*--------------------------------------------Medical Info Page*/
 .page-heading{
