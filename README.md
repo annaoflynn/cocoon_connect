@@ -1,6 +1,7 @@
-Readme.md.
-
+readme.md
 # **Cocoon Connect Readme.md draft** # 
+![Responsive image](images/responsive.png)
+
 
 ## **UX (User Experience)** ## 
 
@@ -8,7 +9,7 @@ Readme.md.
 
 The goal for this project is to provide an easy to navigate platform that caters specifically for older users who may have lower computer literacy.  Helping individuals who may be new to technology to stay connect with love one through its useful video tutorials and links to useful platforms and information. 
 
-# # # ** User Goals: **### 
+### **User Goals** ### 
 
 * A central location to find information on 
 * Covid-19 health information 
@@ -20,7 +21,7 @@ The goal for this project is to provide an easy to navigate platform that caters
 * To educate user on how to set up accounts and use various communication platforms. 
 * Stay connected with family and friends while cocooning at home.  
 
-# # # ** User Story: **### 
+### **User Story** ### 
 
 * As a user of Cocoon Connect, I want   
 
@@ -40,7 +41,7 @@ The goal for this project is to provide an easy to navigate platform that caters
 
  
 
-# # # **User Requirements and Expectations** ### 
+### **User Requirements and Expectations** ### 
 
 **Requirements** 
 
@@ -58,7 +59,7 @@ The goal for this project is to provide an easy to navigate platform that caters
 
  
 
-### ** Design Choices**### 
+### **Design Choices** ### 
 
 When designing this site, I researched how best to design for an older demographic. I wanted to ensure that the website was intuitive to use easy to navigate, had clear text, with good contrast and large clickable areas for ease of use for individuals with reduced dexterity, while still being visually appealing.  
 This is most evident in the responsive navbar which maintains a full width clickable area for all screen sizes. With the expanded menu present in large and medium screen sizes and a collapsible button with “menu” text as opposed to a burger icon to ensure the purpose of it is clear even to those that are not overly computer literate.  
@@ -66,20 +67,20 @@ I loosely based my website design off the CV project from the course material an
 
  
 
-### ** Fonts**### 
+### **Fonts** ### 
 
 I choose a font that was clear to read as suggest by many of the articles I read when researching web design for an older user. The font I choose was Exo front from Google fonts. To ensure coherent feel throughout the website I used the one font in different weights.  
 
-### ** Icons**### 
+### **Icons** ### 
 
 I used Icons form Font Awesome add a visual representation of text. I used sparingly and only where appropriate and where I felt they would add value. I struggled to find some appropriate font awesome icons that were appropriate and work in with the version of font awesome that I was using. This is most noticeable on the medical info page as I couldn’t find an icon to represent a sore throat and ended up having to reuse the tissue box.  
 
  
 
-### ** Colors**### 
+### **Colors** ### 
 
-The colors I used were inspired by the header image which I found in the [Shutterstock library] (https://www.shutterstock.com/)  
-I used [a colour picker tool] (https://imagecolorpicker.com/en/) to get the hex values for the colours from the image. 
+The colors I used were inspired by the header image which I found in the [Shutterstock library](https://www.shutterstock.com/)  
+I used [a colour picker tool](https://imagecolorpicker.com/en/) to get the hex values for the colours from the image. 
 For the Website title, footer and menu button, in mobile view I used #547864 
 * For the home page titles and nav button I used #7B9AB9 
 * For the medical Info nav button, page titles and icons I used #F4ABC7 
@@ -87,9 +88,9 @@ For the Website title, footer and menu button, in mobile view I used #547864
 * For useful contacts and resources, nav button, titles and icons I used #F25637 
 
 
-### ** Wireframing** ### 
+### **Wireframing** ### 
 
-I started out initially by simply sketching out my wireframes on paper and then used [wireframe.cc] (https://wireframe.cc)to complete a soft copy 
+I started out initially by simply sketching out my wireframes on paper and then used [wireframe.cc](https://wireframe.cc) to complete a soft copy 
 Links to my wireframes can be found here: 
 
  I initially felt I would divide the homepage into multiple different clickable areas that would link to the various pages of the website. However, having completed my wireframing I felt not only did this complicate the homepage, making it more difficult to navigate but it just replicated the navbar and it felt as if I was trying to fill space. Ideally, I did not want to use a collapsible navbar however through wireframing I quickly discovered that to maintain a large clickable area for the navbar it took up too much space on mobile device so decided to use a collapsible navbar for this screen size. 
@@ -142,10 +143,10 @@ I had also considered including a carousel on the homepage, however I felt that 
 * Google fonts 
  
 
-### ** Testing**###  
+### **Testing** ###  
 
-First, I checked the HTML using a [HTML Validator] (https://validator.w3.org/) which said there were no errors. 
-Then I used a [CSS Validator] (https://jigsaw.w3.org/css-validator/) which except for the web browser extensions errors, seemed to be all good.   
+First, I checked the HTML using a [HTML Validator](https://validator.w3.org/) which said there were no errors. 
+Then I used a [CSS Validator](https://jigsaw.w3.org/css-validator/) which except for the web browser extensions errors, seemed to be all good.   
 Ideally, I would have liked to test the useability of the site with the target demographic and observed how they interacted with it but unfortunately due to the current restrictions this was not possible. 
 
 ### **Responsiveness** ### 
@@ -197,7 +198,7 @@ CocoonConnect was developed on GitPod. When deploying the site I followed the in
 * All logo used were taken from the relevant websites 
 
 
-### ** Special Thanks** ### 
+### **Special Thanks** ### 
 
 * The amazing tutors on online support 
 * My own tutor 
@@ -207,4 +208,4 @@ CocoonConnect was developed on GitPod. When deploying the site I followed the in
  
 
 
-## **Site for educational purposes only ** ## 
+## **Site for educational purposes only** ## 
