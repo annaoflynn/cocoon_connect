@@ -1,6 +1,6 @@
 readme.md
 # **Cocoon Connect Readme.md draft** # 
-![Responsive image](images/responsive.png)
+![Responsive image](assets/images/responsive.png)
 
 
 ## **UX (User Experience)** ## 
