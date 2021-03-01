@@ -1,470 +1,455 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 /*--------------------------------------------Colors*/
-.bg-color{
-    background-color: #ffffff;
-}
-.ui-menu-color-home{
-    background-color: #7B9AB9;
-}
 
-.ui-menu-color-medical{
-    background-color: #F4ABC7;
+.bg-color {
+	background-color: #ffffff;
 }
-
-.ui-menu-color-social{
-    background-color: #8AB69E;
+.ui-menu-color-home {
+	background-color: #7B9AB9;
 }
-
-.ui-menu-color-activity{
-    background-color: #F25637;
+.ui-menu-color-medical {
+	background-color: #F4ABC7;
 }
-
-ft-color{
-    background-color: #547864;
+.ui-menu-color-social {
+	background-color: #8AB69E;
 }
-.index-color{
-    color: #7B9AB9;
+.ui-menu-color-activity {
+	background-color: #F25637;
 }
-.med-info-color{
-    color: #F4ABC7;
+ft-color {
+	background-color: #547864;
 }
-.social-color{
-    color: #8AB69E
+.index-color {
+	color: #7B9AB9;
 }
-.info-color{
-    color: #F25637;
+.med-info-color {
+	color: #F4ABC7;
 }
-
-
+.social-color {
+	color: #8AB69E
+}
+.info-color {
+	color: #F25637;
+}
 /*--------------------------------------------Heading*/
-header{
-    margin: 0;
-    padding: 0;
-}
 
-.website-name{
-    font-family: "exo", sans-serif;
-    font-size: 8ch;
-    color: #547864;
-    text-align: center;
-    text-decoration: "none";
-    padding: 0;
-    margin: 0.935rem;
+header {
+	margin: 0;
+	padding: 0;
 }
-.logo{
-    background:url("../images/cccover_crop.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    vertical-align: center;
-    width: 100vw;
-    height:12.5rem;
-    padding: 0px;
-    margin:0px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
+.website-name {
+	font-family: "exo", sans-serif;
+	font-size: 8ch;
+	color: #547864;
+	text-align: center;
+	-webkit-text-decoration: "none";
+	text-decoration: "none";
+	padding: 0;
+	margin: 0.935rem;
 }
-.subpage-name{
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-} 
-.name:hover{
-    text-decoration:none;
+.logo {
+	background: url("../images/cccover_crop.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: center;
+	width: 100vw;
+	height: 12.5rem;
+	padding: 0px;
+	margin: 0px;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-
-
-h1{
-    padding-top: 3.125rem;
-    font-family: "exo", sans-serif;
-    font-size: 10vw;
-    color: #547864;
-    text-align: center;
+.subpage-name {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-
-.med-info-color{
-    color: #F4ABC7;
+.name:hover {
+	text-decoration: none;
 }
-
+h1 {
+	padding-top: 3.125rem;
+	font-family: "exo", sans-serif;
+	font-size: 10vw;
+	color: #547864;
+	text-align: center;
+}
+.med-info-color {
+	color: #F4ABC7;
+}
 /*--------------------------------------------Navbar*/
-.list-inline-item:not(:last-child){
-    margin: 0;
-}
 
+.list-inline-item:not(:last-child) {
+	margin: 0;
+}
 .menu-container {
-    font-size: 0;
-    margin:0;
-    min-height:7.5rem;
-    min-width: 100%;
+	font-size: 0;
+	margin: 0;
+	min-height: 7.5rem;
+	min-width: 100%;
 }
-
-nav ul{
-    display: flex;
+nav ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }
-
 #nav li {
-    font-size: 1.75rem;
-    padding: 0;
+	font-size: 1.75rem;
+	padding: 0;
 }
-
-.menuitem{
-    min-height: 7.5rem;
-    text-align: center;
-    padding: 0;
+.menuitem {
+	min-height: 7.5rem;
+	text-align: center;
+	padding: 0;
 }
-
-.menuitem a{
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
+.menuitem a {
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
 }
-.menuitem a i{
-    color: #fff;
-    font-size: 2.5rem;
-    display: block;
-    padding-top: 1.375rem;
+.menuitem a i {
+	color: #fff;
+	font-size: 2.5rem;
+	display: block;
+	padding-top: 1.375rem;
 }
-
-.menuitem span{
-    display: block;
-    width: 100%;
-    padding-top: 0.935rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "exo",sans-serif;
-    font-size: 1.25rem;
-    letter-spacing: 0.125rem;
+.menuitem span {
+	display: block;
+	width: 100%;
+	padding-top: 0.935rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "exo", sans-serif;
+	font-size: 1.25rem;
+	letter-spacing: 0.125rem;
 }
-
-.col{
-    padding:0;
+.col {
+	padding: 0;
 }
-
-.no-margin{
-    margin: 0px;
+.no-margin {
+	margin: 0px;
 }
-.nav-text{
-    display: block;
-    min-height:7.5rem;
-    color: #fff;
-    background-color: #547864;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "exo",sans-serif;
-    font-size: 1.25rem;
-    font-weight: 500;
-    letter-spacing: 0.125rem;
-    padding-top: 3rem;
+.nav-text {
+	display: block;
+	min-height: 7.5rem;
+	color: #fff;
+	background-color: #547864;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "exo", sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+	letter-spacing: 0.125rem;
+	padding-top: 3rem;
 }
 /*-------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(25, 29, 50, 0.2);
-    height: 120px;
-    width: 100vw;
+	background: rgba(25, 29, 50, 0.2);
+	height: 120px;
+	width: 100vw;
 }
-
 /*--------------------------------------------Special paddings/margins/text*/
-h1,h2,h3,h4,h5{
-    margin: 0;
-}
 
-.uppercase{
-    text-transform: uppercase;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
 }
-
-.general-sub{
-    font-family: "exo",sans-serif;
-    font-weight: 300;
-    color: #ffffff;
+.uppercase {
+	text-transform: uppercase;
 }
-
-#common-symptoms li{
-    font-family: "exo", sans-serif;
-    font-size:1.875rem;
-    color: #ffffff
-
+.general-sub {
+	font-family: "exo", sans-serif;
+	font-weight: 300;
+	color: #ffffff;
 }
-#less-common-symptoms li{
-    font-family: "exo", sans-serif;
-    font-size:1.25rem;
-    color: #ffffff
+#common-symptoms li {
+	font-family: "exo", sans-serif;
+	font-size: 1.875rem;
+	color: #ffffff
 }
-.col-sm-4{
-    padding: 0;
+#less-common-symptoms li {
+	font-family: "exo", sans-serif;
+	font-size: 1.25rem;
+	color: #ffffff
 }
-.col-sm-12{
-    padding: 0;
+.col-sm-4 {
+	padding: 0;
 }
-p{
-    font-family: "exo", sans-serif;
-    width: 100%;
+.col-sm-12 {
+	padding: 0;
 }
-.container-fluid{
-    margin: 0px;
-    padding: 0;
+p {
+	font-family: "exo", sans-serif;
+	width: 100%;
 }
-iframe{
-    padding-bottom: 5rem;
+.container-fluid {
+	margin: 0px;
+	padding: 0;
+}
+iframe {
+	padding-bottom: 5rem;
 }
 /*--------------------------------------------Index page*/
 
-.index-content p{
-    padding-left: 2rem;
-    padding-right: 2rem;
-   margin-bottom: 0 !important;
+.index-content p {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-bottom: 0 !important;
 }
-
-.list-content{
-    font-family: "exo", sans-serif;
-    font-size: 1.25rem;
-    padding-left: 7rem;
+.list-content {
+	font-family: "exo", sans-serif;
+	font-size: 1.25rem;
+	padding-left: 7rem;
 }
 /*--------------------------------------------Medical Info Page*/
-.page-heading{
-    font-family: "exo", sans-serif;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    padding-left: 0.9375rem;
-    font-size: 3.75rem;
-    margin-top: 0.625rem;
+
+.page-heading {
+	font-family: "exo", sans-serif;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	padding-left: 0.9375rem;
+	font-size: 3.75rem;
+	margin-top: 0.625rem;
 }
-
-.page-subheading{
-    font-family: "exo", sans-serif;
-    color: #696969;
-    font-size: 2.5rem;
-    padding-left: 0.9375rem;
-    padding-top: 1.25rem;
-    padding-bottom: 3.125rem;
+.page-subheading {
+	font-family: "exo", sans-serif;
+	color: #696969;
+	font-size: 2.5rem;
+	padding-left: 0.9375rem;
+	padding-top: 1.25rem;
+	padding-bottom: 3.125rem;
 }
-
-.less-com{
-    padding-top: 5rem;
+.less-com {
+	padding-top: 5rem;
 }
-
-.symptom-icon{
-    text-align: center;
+.symptom-icon {
+	text-align: center;
 }
-
-.symptom-text{
-    color: #696969;
-    font-size: 1.25rem;
-    font-weight: 500;
-    display: block;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    margin: auto
-
+.symptom-text {
+	color: #696969;
+	font-size: 1.25rem;
+	font-weight: 500;
+	display: block;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	margin: auto
 }
 .icon-background {
-    color: #F4ABC7;
-}   
-
-.sym-icon{
-    color: #ffffff;
-    font-size: 4rem;
-    display: block;
-    padding: 0;
-    text-align: center;
-}    
-
-.page-content{
-    font-family: "exo", sans-serif;
-    font-size: 1.25rem;
-    text-align: left;
-    padding-left: 0.9375rem;
-    padding-right: 0.526rem;
+	color: #F4ABC7;
 }
-.space{
-    padding-top: 0.526rem;
+.sym-icon {
+	color: #ffffff;
+	font-size: 4rem;
+	display: block;
+	padding: 0;
+	text-align: center;
 }
-h5{
-    font-weight: 500;
+.page-content {
+	font-family: "exo", sans-serif;
+	font-size: 1.25rem;
+	text-align: left;
+	padding-left: 0.9375rem;
+	padding-right: 0.526rem;
+}
+.space {
+	padding-top: 0.526rem;
+}
+h5 {
+	font-weight: 500;
 }
 /*--------------------------------------------Social Pages*/
 
-#social-links a i{
-    color: #8AB69E;
-    font-size: 6.25rem;
-    display: block;
-    padding-top: 1.375rem;
-    text-align: center;
+#social-links a i {
+	color: #8AB69E;
+	font-size: 6.25rem;
+	display: block;
+	padding-top: 1.375rem;
+	text-align: center;
 }
-#social-links a span{
-    color: #000000;
-    font-size: 1.25rem;
-    display: block;
-    padding-top: 1.875rem;
-    text-align: center;
-    padding-bottom: 2.5rem;
+#social-links a span {
+	color: #000000;
+	font-size: 1.25rem;
+	display: block;
+	padding-top: 1.875rem;
+	text-align: center;
+	padding-bottom: 2.5rem;
 }
-    
-iframe{
-  width: 100%;
-  height: 66.66vh;  
+iframe {
+	width: 100%;
+	height: 66.66vh;
 }
-
 /*--------------------------------------------Useful Info Page*/
-.ci-logo{
-    background: url("../images/ci-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.hse-logo{
-    background: url("../images/hse-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.alone-logo{
-    background: url("../images/alone-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.age-logo{
-    background: url("../images/age-logo.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.friends-logo{
-    background: url("../images/friends-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.rte-logo{
-    background: url("../images/rte-logo.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.vm-logo{
-    background: url("../images/vm-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
-.ifi-logo{
-    background: url("../images/ifi-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 7.5rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
-}
 
-#ww-links a i{
-    color: #F25637;
-    font-size: 7.5rem;
-    display: block;
-    text-align: center;
+.ci-logo {
+	background: url("../images/ci-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-#ww-links a span{
-    color: #000000;
-    font-size: 1.25rem;
-    display: block;
-    text-align: center;
-    padding-bottom: 2.4rem;
-    padding-top: 1.875rem;
+.hse-logo {
+	background: url("../images/hse-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-
-.hi-logo{
-    background: url("../images/hi-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 9.375rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out;
+.alone-logo {
+	background: url("../images/alone-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-.ui-logo{ 
-    height: 7.5rem;
+.age-logo {
+	background: url("../images/age-logo.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-.tag-line{
-    text-align: center;
-    height: 3.9375rem;
+.friends-logo {
+	background: url("../images/friends-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 }
-
+.rte-logo {
+	background: url("../images/rte-logo.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+.vm-logo {
+	background: url("../images/vm-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+.ifi-logo {
+	background: url("../images/ifi-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+#ww-links a i {
+	color: #F25637;
+	font-size: 7.5rem;
+	display: block;
+	text-align: center;
+}
+#ww-links a span {
+	color: #000000;
+	font-size: 1.25rem;
+	display: block;
+	text-align: center;
+	padding-bottom: 2.4rem;
+	padding-top: 1.875rem;
+}
+.hi-logo {
+	background: url("../images/hi-logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 9.375rem;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+.ui-logo {
+	height: 7.5rem;
+}
+.tag-line {
+	text-align: center;
+	height: 3.9375rem;
+}
 /*--------------------------------------------footer*/
-footer{
-    background-color: #547864;
-    color: #ffffff;
-    min-height: 7.5rem;
-    font-family: "exo", sans-serif;
-    padding: 0;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    margin: 0;
-    margin-top: 3rem !important;
-    position: relative;
-    
-}
 
-.social-list i{
-    font-size: 1.8rem;
-    color: #ffffff;
-    text-align: center;
-    padding: 0.9375rem;
-    padding-top: 1.5rem;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+footer {
+	background-color: #547864;
+	color: #ffffff;
+	min-height: 7.5rem;
+	font-family: "exo", sans-serif;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	margin: 0;
+	margin-top: 3rem !important;
+	position: relative;
 }
-.social-list i:hover{
-    color:rgb(160, 158, 158);
+.social-list i {
+	font-size: 1.8rem;
+	color: #ffffff;
+	text-align: center;
+	padding: 0.9375rem;
+	padding-top: 1.5rem;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
- .bold{
-    font-weight: 500;
-    text-align: center;
-    padding: 0.625rem;
+.social-list i:hover {
+	color: rgb(160, 158, 158);
 }
-
-p{
-    padding: 1.5rem;
-    text-align: center;
+.bold {
+	font-weight: 500;
+	text-align: center;
+	padding: 0.625rem;
+}
+p {
+	padding: 1.5rem;
+	text-align: center;
 }
