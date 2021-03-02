@@ -44,8 +44,6 @@ header {
 	font-size: 8ch;
 	color: #547864;
 	text-align: center;
-	-webkit-text-decoration: "none";
-	text-decoration: "none";
 	padding: 0;
 	margin: 0.935rem;
 }
@@ -274,14 +272,14 @@ h5 {
 }
 /*--------------------------------------------Social Pages*/
 
-.social-links a i {
+#social-links a i {
 	color: #8AB69E;
 	font-size: 6.25rem;
 	display: block;
 	padding-top: 1.375rem;
 	text-align: center;
 }
-.social-links a span {
+#social-links a span {
 	color: #000000;
 	font-size: 1.25rem;
 	display: block;
